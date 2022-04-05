@@ -20,7 +20,7 @@ A small project for scrapy-investigation
 
 
 * Free software: BSD license
-* Documentation: https://scrapy-investigation.readthedocs.io.
+* Start project: [Installation](docs/INSTALL.md)
 
 
 Features
