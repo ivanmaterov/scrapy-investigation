@@ -36,19 +36,19 @@ You have to have the following tools installed prior initializing the project:
 
 1. Create separate python virtual environment
 
-``
-pyenv install 3.9.8
-pyenv virtualenv 3.9.8 scrapy-investigation
-pyenv local scrapy-investigation
-pyenv activate scrapy-investigation
-``
+``pyenv install 3.9.8``
+
+``pyenv virtualenv 3.9.8 scrapy-investigation``
+
+``pyenv local scrapy-investigation``
+
+``pyenv activate scrapy-investigation``
 
 2. Set up packages for using `invoke`
 
-``
-pip install -r requirements/local_build.txt
-inv project.install-requirements
-``
+``pip install -r requirements/local_build.txt``
+
+``inv project.install-requirements``
 
 Features
 --------
