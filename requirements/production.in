@@ -23,4 +23,4 @@ ptpython
 jupyter
 
 # Framework for extracting the data you need from websites.
-srapy
+scrapy
