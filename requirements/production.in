@@ -1,0 +1,26 @@
+pip
+bump2version
+wheel
+watchdog
+tox
+coverage
+Sphinx
+twine
+
+# Linters
+# https://pylama.readthedocs.io/en/latest/#configuration-files
+pylint
+pylint-pytest
+pylint_quotes
+flake8
+isort
+
+# Improved REPL
+ipdb
+ipython
+ptipython
+ptpython
+jupyter
+
+# Framework for extracting the data you need from websites.
+srapy
