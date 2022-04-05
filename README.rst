@@ -20,8 +20,35 @@ A small project for scrapy-investigation
 
 
 * Free software: BSD license
-* Start project: [Installation](docs/INSTALL.md)
 
+Install project
+---------------
+
+You have to have the following tools installed prior initializing the project:
+
+- pyenv_
+- pyenv-virtualenv_
+
+.. _pyenv: https://github.com/pyenv/pyenv
+.. _pyenv-virtualenv: https://github.com/pyenv/pyenv-virtualenv
+
+*Prepare the project*
+
+1. Create separate python virtual environment
+
+``
+pyenv install 3.9.8
+pyenv virtualenv 3.9.8 scrapy-investigation
+pyenv local scrapy-investigation
+pyenv activate scrapy-investigation
+``
+
+2. Set up packages for using `invoke`
+
+``
+pip install -r requirements/local_build.txt
+inv project.install-requirements
+``
 
 Features
 --------
