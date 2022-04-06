@@ -6,7 +6,7 @@ from . import common
 # Linters
 ##############################################################################
 
-DEFAULT_FOLDERS = "scrapy_investigation provision tasks.py"
+DEFAULT_FOLDERS = "grabber/spiders/mirasmart_grabber.py provision tasks.py"
 
 
 @task
