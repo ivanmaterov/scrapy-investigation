@@ -1,12 +1,14 @@
 import math
-import scrapy
-from grabber.items import DetailItem
-from scrapy.loader import ItemLoader
-from scrapy.http.response.html import HtmlResponse
-from scrapy.http.request import Request
 
+import scrapy
+from scrapy.http.request import Request
+from scrapy.http.response.html import HtmlResponse
+from scrapy.loader import ItemLoader
+
+from grabber.items import DetailItem
 
 DETAILS_PER_PAGE = 5
+
 
 class QuotesSpider(scrapy.Spider):
     """Spider for mirasmart site."""
